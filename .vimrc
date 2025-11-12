@@ -5,7 +5,6 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set autoindent
-"set smartindent
 set nu
 set rnu
 filetype on
@@ -13,10 +12,6 @@ filetype plugin on
 filetype indent on
 nnoremap <leader>f :find<Space>
 nnoremap <leader>w :w<CR>
-nnoremap <leader>+ :resize +5<CR>
-nnoremap <leader>- :resize -5<CR>
-nnoremap <leader>> :vertical resize +5<CR>
-nnoremap <leader>< :vertical resize -5<CR>
 
 function! RecentFiles()
     let l:files = copy(v:oldfiles)
